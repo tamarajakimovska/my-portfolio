@@ -1,0 +1,120 @@
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.intro {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 100px;
+  background-color: rgb(241, 202, 172);
+}
+.hero {
+  background-image: url("https://cdn.dribbble.com/users/1583884/screenshots/17868785/rm281-adj-067_4x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #43093f75;
+}
+.hero h2 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 2;
+}
+
+.btn-branding {
+  border-radius: 4px;
+  background-color: rgba(95, 29, 78, 0.899);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.content-container h1 {
+  font-size: 34px;
+  line-height: 80px;
+}
+
+.content-container h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content-container {
+  padding: 0px 20px;
+}
+.content {
+  margin: 0%;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
+}
+.content {
+  text-align: center;
+  padding: 0;
+}
+
+.project-description {
+  padding: 20px 50px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: rgb(241, 202, 172);
+}
+footer .contact-box {
+  background-color: rgb(241, 202, 172);
+  padding: 30px;
+  border-radius: 10px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.first-image {
+  border-radius: 50%;
+}
+
+.navbar-background {
+  background-color: rgb(241, 202, 172);
+}
+
+.container {
+  background-color: rgb(246, 227, 212);
+}
+.info-background {
+  background-color: rgb(200, 177, 162);
+  padding: 80px;
+}
+
+.contact-image {
+  background-color: rgb(200, 177, 162);
+  padding: 80px;
+}
